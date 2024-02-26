@@ -24,7 +24,7 @@ This simple web app allows users to play the classic game of Tic-Tac-Toe against
    
    `npm start`
    
-4. Open your browser and navigate to http://localhost:3000 to play the game.
+4. Open your browser and navigate to http://localhost:5173/ to play the game.
 
 ## Technologies Used
 
