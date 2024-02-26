@@ -25,6 +25,7 @@ export default function Player({ initialName, symbol, isActive, onChangeName }) 
                         value={playerName}
                         type="text"
                         onChange={handleChange}
+                        maxlength="8"
                     />
                     )
                 }

@@ -26,7 +26,7 @@ body {
     url('bg-pattern-dark.png');
   background-repeat: repeat;
   background-size: 100% 100%, 30% 30%, 100% 100%;
-  min-height: 110rem;
+  min-height: 60rem;
 }
 
 header {
@@ -49,7 +49,7 @@ h1 {
 
 #game-container {
   max-width: 45rem;
-  margin: 3rem auto;
+  margin: 1rem auto;
   padding: 2rem;
   border-radius: 6px;
   background: linear-gradient(#383624, #282617);
@@ -119,6 +119,11 @@ h1 {
   text-overflow: ellipsis;
   text-align: center;
 }
+@media (max-width: 767px) {
+  .player-name {
+    width: 6rem;
+  }
+}
 
 .player input {
   font: inherit;
@@ -130,6 +135,11 @@ h1 {
   background-color: #46432f;
   text-align: center;
   text-transform: uppercase;
+}
+@media (max-width: 767px) {
+  .player input {
+    width: 6rem;
+  }
 }
 
 .player-symbol {
@@ -188,6 +198,13 @@ ol {
   cursor: pointer;
   font-family: 'Caprasimo', cursive;
   padding: 1rem;
+}
+@media (max-width: 767px) {
+  #game-board button {
+    width: 5rem;
+    height: 5rem;
+    font-size: 3rem;
+  }
 }
 
 #game-over {
