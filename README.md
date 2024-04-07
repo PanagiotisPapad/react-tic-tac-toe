@@ -22,7 +22,7 @@ This simple web app allows users to play the classic game of Tic-Tac-Toe against
    
 3. Run the app
    
-   `npm start`
+   `npm run dev`
    
 4. Open your browser and navigate to http://localhost:5173/ to play the game.
 
