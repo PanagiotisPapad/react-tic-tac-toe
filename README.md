@@ -12,7 +12,7 @@ This simple web app allows users to play the classic game of Tic-Tac-Toe against
 
 1. Clone the repository to your local machine.
    
-  `git clone https://github.com/your-username/tic-tac-toe-app.git`
+  `git clone https://github.com/panagiotisPapad/tic-tac-toe-app.git`
   
 2. Install dependencies.
 
@@ -29,8 +29,6 @@ This simple web app allows users to play the classic game of Tic-Tac-Toe against
 ## Technologies Used
 
 * React.js
-* JavaScript
-* HTML/CSS
 
 ## Deployed on Github Pages
 
